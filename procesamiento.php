@@ -62,8 +62,9 @@ for ($i = 0; $i < count($productos); $i++) {
 <body class="bg-light">
 <div class="container my-5">
 
-  <h2 class="mb-3">Factura de <?= htmlspecialchars($cliente['nombre']) ?></h2>
+  <h2 class="mb-3">Factura web ?></h2>
   <p>
+    <strong>Razón social:</strong> <?= htmlspecialchars($cliente['nombre']) ?><br>
     <strong>Correo:</strong> <?= htmlspecialchars($cliente['correo']) ?><br>
     <strong>Fecha:</strong> <?= htmlspecialchars($cliente['fecha']) ?><br>
     <strong>Comentarios:</strong> <?= nl2br(htmlspecialchars($cliente['comentarios'])) ?>
